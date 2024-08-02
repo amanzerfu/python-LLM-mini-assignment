@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile-node
+    ports:
+      - "3000:3000"
+
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile-python
+    ports:
+      - "8000:8000"

@@ -1,0 +1,18 @@
+{
+    "name": "llm-chatbot-api",
+    "version": "1.0.0",
+    "description": "Node.js API server for interacting with a Python service handling language model queries and managing conversation history.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "axios": "^1.2.0",
+      "dotenv": "^16.0.0",
+      "express": "^4.18.2"
+    },
+    "author": "Amanuel Zerfu",
+    "license": "MIT"
+  }
+  
